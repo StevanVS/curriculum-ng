@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  --prymary-clr: #f5eae5;
+  --secondary-clr: #464952;
+}
+
+body {
+  background-color: #d0dbdd;
+  padding: 1rem;
+
+  display: grid;
+  place-items: center;
+}
